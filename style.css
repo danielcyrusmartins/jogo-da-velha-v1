@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300&family=Special+Elite&display=swap');
+
+* {
+    overflow: hidden;
+    font-family: 'Special Elite', cursive;
+    color: #498AFB;        
+}
+
+.background {
+    background-image: url(background.jpg);
+    background-color: black;
+    background-size: cover;
+    height: 100%;
+    padding-top: 1px;
+}
+
+.title {
+    color: rgb(182, 76, 76);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.display {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.hide {
+    display: none;
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.controls button {
+    color: white solid;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
